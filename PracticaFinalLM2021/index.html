@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Practica Final LM2021</title>
+<style>
+
+    .body{
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: blanchedalmond;
+    }
+    #contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    @media screen and (orientation:landscape) {
+
+        #fondo{
+        width: 100vw; 
+        height: 100vw;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        object-fit: cover;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+    }
+}
+    @media screen and (orientation:portrait) {
+          #fondo{
+          width: 100vw; 
+          height: 100vw;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          object-fit: cover;
+          padding-left: 2%;
+          padding-right: 2%;
+          padding-bottom: 1%;
+
+
+
+}
+    }
+
+    
+</style>
+</head>
+
+<body>
+    <div  id="contenedor">
+        <picture id="fondo">
+           <source srcset="horizontal1920.jpg" media="(min-width: 1920px)">
+           <source srcset="horizontal1920.heic" media="(min-width: 1920px)">
+           <source srcset="horizontal1920.webp" media="(min-width: 1920px)">
+           <source srcset="vertical1200.jpg" media="(min-width: 1200px)">
+           <source srcset="vertical1200.heic" media="(min-width: 1200px)">
+           <source srcset="vertical1200.webp" media="(min-width: 1200px)">
+           <source srcset="horizontal800.jpg" media="(min-width: 800px)">
+           <source srcset="horizontal800.heic" media="(min-width: 800px)">
+           <source srcset="horizontal800.webp" media="(min-width: 800px)">
+           <source srcset="vertical600.jpg" media="(min-width:  600px)">
+           <source srcset="vertical600.heic" media="(min-width:  600px)">
+           <source srcset="vertical600.webp" media="(min-width:  600px)">
+          
+            <img src="horizontal1920.jpg" width="100%" alt="foto ciudad">
+
+
+        </picture>
+    </div>
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+
